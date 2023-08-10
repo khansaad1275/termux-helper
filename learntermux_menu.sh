@@ -3,7 +3,10 @@
 # Function to display the menu
 display_menu() {
     clear
-    echo "Menu:"
+    echo "******************************************"
+    echo "            Learn Termux Menu             "
+    echo "******************************************"
+    echo "Please select an option:"
     echo "1) Basic Commands"
     echo "2) Brute Force"
     echo "3) Denial of Service Attack"
@@ -26,6 +29,7 @@ display_menu() {
     echo "20) Webserver Creation"
     echo "21) Custom Search"
     echo "0) Exit"
+    echo "******************************************"
 }
 
 # Function to perform a custom search
