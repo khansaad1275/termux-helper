@@ -8,4 +8,7 @@ Installation command:<br><br>
 ```
 pkg install git || cd $PREFIX || git clone https://github.com/khansaad1275/termux-helper/ || cd termux-helper || chmod +x learntermux_menu.sh || bash install.sh
 
+
+
+
 ```
