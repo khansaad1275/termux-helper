@@ -6,7 +6,9 @@ if [ -d "$directory_path" ]; then
     echo "#-------------TERMUX-HELPER---------------" >> /data/data/com.termux/files/usr/etc/bash.bashrc
     echo "alias learn='bash \$PREFIX/termux-helper/termuxhelper.sh'" >> /data/data/com.termux/files/usr/etc/bash.bashrc
     echo "alias learn='bash \$PREFIX/termux-helper/termuxhelper.sh'" >> /data/data/com.termux/files/usr/etc/bash.bashrc
-    echo "echo -e '\033[1;37;42mType learn to open termux-helper \033[0m'" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    echo "alias l='bash \$PREFIX/termux-helper/termuxhelper.sh'" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    echo "echo -e '\033[1;37;42m>>> Type learn or l press Enter to open termux-helper <3 \033[0m'" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+    echo "echo '' " >> /data/data/com.termux/files/usr/etc/bash.bashrc
 
 
     
