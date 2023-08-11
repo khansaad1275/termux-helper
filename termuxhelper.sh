@@ -32,7 +32,8 @@ display_menu() {
     echo -e "\033[1;32m19] Everyday Use Tools\033[0m"
     echo -e "\033[1;32m20] Webserver Creation\033[0m"
     echo -e "\033[1;32m21] Custom Search\033[0m"
-    echo -e "\033[1;32m21] About This tool\033[0m"
+    echo -e "\033[1;32m22] About This tool\033[0m"
+    echo -e "\033[1;32m23] Uninstall Termux Helper\033[0m"
     echo -e "\033[1;31m0] Exit\033[0m"
     echo -e "\033[1;32m************************************************************\033[0m"
 }
@@ -140,6 +141,59 @@ while true; do
          22)
             echo "Hey, This tool is created by SaadMaqsood from Learntermux.tech."
             echo "This tools is just a simple menu that will help you to quickly install and read from learntermux.tech so that you don't waste time on the internet finding command."
+            ;;
+       23)
+            
+
+bold="\033[1m"
+green_bg="\033[42m"
+red_bg="\033[41m"
+reset="\033[0m"
+
+# Clear the screen
+
+clear
+echo " "
+# Print title with red background and bold text
+echo -e "${red_bg}${bold} Uninstall Page: Termux Helper ${reset}"
+
+# Print the message with bold points
+echo -e "${bold}Dear User,${reset}"
+
+# Print the introductory part
+echo -e "We understand that you're considering uninstalling Termux Helper, but we'd like to take a moment to highlight the valuable advantages it brings to your experience.\n"
+
+# Print the key benefits
+echo -e "Here's why Termux Helper is an asset that you might want to keep:\n"
+
+echo -e -n "${bold}1. ${green_bg}Powerful and Comprehensive:${reset}"
+echo -e "Termux Helper is not just another program; it's a power tool designed to provide you with a curated selection of hacking, penetration testing, and programming tools. These tools are organized into us>
+
+echo -e -n "${bold}2. ${green_bg}Efficiency and Ease of Use:${reset}"
+echo -e "Termux Helper streamlines your workflow by offering a simple menu that allows you to quickly install new and updated scripts. No more hunting for tools or dealing with complex installations – Termux >
+
+echo -e -n "${bold}3. ${green_bg}Security Matters:${reset}"
+echo -e "Your system's security is our priority. Termux Helper has been carefully designed and tested to ensure that it won't cause harm to your system. You can confidently explore and experiment without worr>
+
+# Print the encouragement to keep Termux Helper
+echo -e "\nWe encourage you to reconsider uninstalling Termux Helper. It's a versatile resource that can empower you in your coding, testing, and exploration endeavors.\n"
+
+# Prompt user for input with red background
+echo -e -n "${red_bg}${bold}Type 'uninstall' to proceed with uninstallation or press Enter to keep Termux Helper:"
+read -p "" user_input
+echo -e "${reset}"
+# Check user's input and respond accordingly
+if [[ "$user_input" == "uninstall" ]]; then
+    echo "Uninstalling..."
+else
+    echo "Thank you for choosing to keep Termux Helper. It's an investment in your productivity and growth."
+fi
+
+
+
+
+
+            
             ;;
         *)
             echo "Invalid choice. Please select a valid option."
