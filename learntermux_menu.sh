@@ -32,8 +32,9 @@ display_menu() {
     echo -e "\033[1;32m19] Everyday Use Tools\033[0m"
     echo -e "\033[1;32m20] Webserver Creation\033[0m"
     echo -e "\033[1;32m21] Custom Search\033[0m"
+    echo -e "\033[1;32m21] About This tool\033[0m"
     echo -e "\033[1;31m0] Exit\033[0m"
-    echo -e "\033[1;32m******************************************\033[0m"
+    echo -e "\033[1;32m************************************************************\033[0m"
 }
 # Function to perform a custom search
 custom_search() {
@@ -45,7 +46,7 @@ custom_search() {
 # Main loop
 while true; do
     display_menu
-    read -p "Enter your choice (0 to 21): " choice
+    read -p ">>Enter your choice (0 to 22) --> " choice
 
     case $choice in
         0)
@@ -135,6 +136,10 @@ while true; do
         21)
             echo "You selected: Custom Search"
             custom_search
+            ;;
+         22)
+            echo "Hey, This tool is created by SaadMaqsood from Learntermux.tech."
+            echo "This tools is just a simple menu that will help you to quickly install and read from learntermux.tech so that you don't waste time on the internet finding command."
             ;;
         *)
             echo "Invalid choice. Please select a valid option."
