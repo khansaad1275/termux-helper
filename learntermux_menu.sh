@@ -3,35 +3,34 @@
 # Function to display the menu
 display_menu() {
     clear
-    echo "******************************************"
-    echo "            Learn Termux Menu             "
-    echo "******************************************"
-    echo "Please select an option:"
-    echo "1) Basic Commands"
-    echo "2) Brute Force"
-    echo "3) Denial of Service Attack"
-    echo "4) Encryption & Decryption"
-    echo "5) Games in Termux"
-    echo "6) Information Gathering"
-    echo "7) Metasploit"
-    echo "8) Phishing"
-    echo "9) Programming in Termux"
-    echo "10) Cool Scripts"
-    echo "11) SQL Injection"
-    echo "12) Termux issues"
-    echo "13) Termux Add-ons"
-    echo "14) Termux API"
-    echo "15) Termux Customization"
-    echo "16) Termux for Fun"
-    echo "17) Themes"
-    echo "18) Top Tools of Termux"
-    echo "19) Everyday Use Tools"
-    echo "20) Webserver Creation"
-    echo "21) Custom Search"
-    echo "0) Exit"
-    echo "******************************************"
+    echo -e "\033[1;32m******************************************\033[0m"
+    echo -e "\033[1;32m            Learn Termux Menu             \033[0m"
+    echo -e "\033[1;32m******************************************\033[0m"
+    echo -e "\033[1;34mPlease select an option:\033[0m"
+    echo -e "\033[1;32m1] Basic Commands\033[0m"
+    echo -e "\033[1;32m2] Brute Force\033[0m"
+    echo -e "\033[1;32m3] Denial of Service Attack\033[0m"
+    echo -e "\033[1;32m4] Encryption & Decryption\033[0m"
+    echo -e "\033[1;32m5] Games in Termux\033[0m"
+    echo -e "\033[1;32m6] Information Gathering\033[0m"
+    echo -e "\033[1;32m7] Metasploit\033[0m"
+    echo -e "\033[1;32m8] Phishing\033[0m"
+    echo -e "\033[1;32m9] Programming in Termux\033[0m"
+    echo -e "\033[1;32m10] Cool Scripts\033[0m"
+    echo -e "\033[1;32m11] SQL Injection\033[0m"
+    echo -e "\033[1;32m12] Termux issues\033[0m"
+    echo -e "\033[1;32m13] Termux Add-ons\033[0m"
+    echo -e "\033[1;32m14] Termux API\033[0m"
+    echo -e "\033[1;32m15] Termux Customization\033[0m"
+    echo -e "\033[1;32m16] Termux for Fun\033[0m"
+    echo -e "\033[1;32m17] Themes\033[0m"
+    echo -e "\033[1;32m18] Top Tools of Termux\033[0m"
+    echo -e "\033[1;32m19] Everyday Use Tools\033[0m"
+    echo -e "\033[1;32m20] Webserver Creation\033[0m"
+    echo -e "\033[1;32m21] Custom Search\033[0m"
+    echo -e "\033[1;31m0] Exit\033[0m"
+    echo -e "\033[1;32m******************************************\033[0m"
 }
-
 # Function to perform a custom search
 custom_search() {
     read -p "Enter what you want to learn about: " keyword
@@ -43,7 +42,7 @@ custom_search() {
 while true; do
     display_menu
     read -p "Enter your choice (0 to 21): " choice
-    
+
     case $choice in
         0)
             echo "Goodbye!"
@@ -137,6 +136,6 @@ while true; do
             echo "Invalid choice. Please select a valid option."
             ;;
     esac
-    
+
     read -p "Press Enter to continue..."
 done
