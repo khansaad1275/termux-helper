@@ -7,11 +7,13 @@
 
 function type_animation() {
     local text="$1"
-    for ((i = 0; i < ${#text}; i++)); do
-        echo -n -e "\033[1;32m${text:$i:1}\033[0m"
-        sleep 0.0000000000000000001
+    local interval=0.000001
+
+    for ((i = 0; i < ${#text}; i += 3)); do
+        echo -n -e "\033[1;32m${text:$i:3}\033[0m"
+        sleep $interval
     done
-    echo
+echo
 }
 
 function red_exit() {
