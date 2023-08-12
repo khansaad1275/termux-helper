@@ -167,13 +167,13 @@ echo -e "We understand that you're considering uninstalling Termux Helper, but w
 echo -e "Here's why Termux Helper is an asset that you might want to keep:\n"
 
 echo -e -n "${bold}1. ${green_bg}Powerful and Comprehensive:${reset}"
-echo -e "Termux Helper is not just another program; it's a power tool designed to provide you with a curated selection of hacking, penetration testing, and programming tools. These tools are organized into us>
+echo -e "Termux Helper is not just another program; it's a power tool designed to provide you with a curated selection of hacking, penetration testing, and programming tools. These tools are organized into us"
 
 echo -e -n "${bold}2. ${green_bg}Efficiency and Ease of Use:${reset}"
-echo -e "Termux Helper streamlines your workflow by offering a simple menu that allows you to quickly install new and updated scripts. No more hunting for tools or dealing with complex installations – Termux >
+echo -e "Termux Helper streamlines your workflow by offering a simple menu that allows you to quickly install new and updated scripts. No more hunting for tools or dealing with complex installations – Termux"
 
 echo -e -n "${bold}3. ${green_bg}Security Matters:${reset}"
-echo -e "Your system's security is our priority. Termux Helper has been carefully designed and tested to ensure that it won't cause harm to your system. You can confidently explore and experiment without worr>
+echo -e "Your system's security is our priority. Termux Helper has been carefully designed and tested to ensure that it won't cause harm to your system. You can confidently explore and experiment without worry."
 
 # Print the encouragement to keep Termux Helper
 echo -e "\nWe encourage you to reconsider uninstalling Termux Helper. It's a versatile resource that can empower you in your coding, testing, and exploration endeavors.\n"
@@ -185,6 +185,7 @@ echo -e "${reset}"
 # Check user's input and respond accordingly
 if [[ "$user_input" == "uninstall" ]]; then
     echo "Uninstalling..."
+    bash $PREFIX/termux-helper/uninstall.sh
 else
     echo "Thank you for choosing to keep Termux Helper. It's an investment in your productivity and growth."
 fi
