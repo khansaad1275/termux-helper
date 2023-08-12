@@ -1,7 +1,6 @@
 directory_path="$PREFIX/termux-helper"
 
 if [ -d "$directory_path" ]; then
-    echo "The directory '$directory_path' exists."
     echo "#- " >> /data/data/com.termux/files/usr/etc/bash.bashrc
     echo "#-------------TERMUX-HELPER---------------" >> /data/data/com.termux/files/usr/etc/bash.bashrc
     echo "alias learn='bash \$PREFIX/termux-helper/termuxhelper.sh'" >> /data/data/com.termux/files/usr/etc/bash.bashrc
