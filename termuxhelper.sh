@@ -2,47 +2,63 @@
 #hey it's me saad
 #Date 12-8-2023
 
-# Function to display the menu
 
-#update the tool
-#git reset --hard HEAD && git pull
+#!/bin/bash
+
+function type_animation() {
+    local text="$1"
+    for ((i = 0; i < ${#text}; i++)); do
+        echo -n -e "\033[1;32m${text:$i:1}\033[0m"
+        sleep 0.0000000000000000001
+    done
+    echo
+}
+
+function red_exit() {
+    echo -e "\033[1;31m0] Exit\033[0m"
+}
+
+function green_text_animation() {
+    local text="$1"
+    echo -e -n "\033[1;42;97m$text\033[0m"
+}
 
 display_menu() {
     clear
-    
-    echo -e "\033[1;32m▀▀█▀▀ █▀▀ █▀▀█ █▀▄▀█ █░░█ █░█ 　 ▒█░▒█ █▀▀ █░░ █▀▀█ █▀▀ █▀▀█ \033[0m"
-    echo -e "\033[1;32m░▒█░░ █▀▀ █▄▄▀ █░▀░█ █░░█ ▄▀▄ 　 ▒█▀▀█ █▀▀ █░░ █░░█ █▀▀ █▄▄▀ \033[0m"
-    echo -e "\033[1;32m░▒█░░ ▀▀▀ ▀░▀▀ ▀░░░▀ ░▀▀▀ ▀░▀ 　 ▒█░▒█ ▀▀▀ ▀▀▀ █▀▀▀ ▀▀▀ ▀░▀▀\033[0m"
-    echo -e "\033[1;32m************************************************************\033[0m"
-    echo -e "\033[1;32m                       Learn Termux Menu                     \033[0m"
-    echo -e "\033[1;32m************************************************************\033[0m"
-    echo -e "\033[1;34mPlease select an option:\033[0m"
-    echo -e "\033[1;32m1] Basic Commands\033[0m"
-    echo -e "\033[1;32m2] Brute Force\033[0m"
-    echo -e "\033[1;32m3] Denial of Service Attack\033[0m"
-    echo -e "\033[1;32m4] Encryption & Decryption\033[0m"
-    echo -e "\033[1;32m5] Games in Termux\033[0m"
-    echo -e "\033[1;32m6] Information Gathering\033[0m"
-    echo -e "\033[1;32m7] Metasploit\033[0m"
-    echo -e "\033[1;32m8] Phishing\033[0m"
-    echo -e "\033[1;32m9] Programming in Termux\033[0m"
-    echo -e "\033[1;32m10] Cool Scripts\033[0m"
-    echo -e "\033[1;32m11] SQL Injection\033[0m"
-    echo -e "\033[1;32m12] Termux issues\033[0m"
-    echo -e "\033[1;32m13] Termux Add-ons\033[0m"
-    echo -e "\033[1;32m14] Termux API\033[0m"
-    echo -e "\033[1;32m15] Termux Customization\033[0m"
-    echo -e "\033[1;32m16] Termux for Fun\033[0m"
-    echo -e "\033[1;32m17] Themes\033[0m"
-    echo -e "\033[1;32m18] Top Tools of Termux\033[0m"
-    echo -e "\033[1;32m19] Everyday Use Tools\033[0m"
-    echo -e "\033[1;32m20] Webserver Creation\033[0m"
-    echo -e "\033[1;32m21] Custom Search\033[0m"
-    echo -e "\033[1;32m22] About This tool\033[0m"
-    echo -e "\033[1;32m23] Uninstall Termux Helper\033[0m"
-    echo -e "\033[1;31m0] Exit\033[0m"
-    echo -e "\033[1;32m************************************************************\033[0m"
+
+    type_animation "   ▀▀█▀▀ █▀▀ █▀▀█ █▀▄▀█ █░░█ █░█"
+    type_animation "   ░▒█░░ █▀▀ █▄▄▀ █░▀░█ █░░█ ▄▀▄"
+    type_animation "   ░▒█░░ ▀▀▀ ▀░▀▀ ▀░░░▀ ░▀▀▀ ▀░▀"
+    echo -e "\033[1;32m************************************\033[0m"
+    type_animation "         Learn Termux Menu             "
+    echo -e "\033[1;32m************************************\033[0m"
+    type_animation "Please select an option:"
+    type_animation "1] Basic Commands"
+    type_animation "2] Brute Force"
+    type_animation "3] Denial of Service Attack"
+    type_animation "4] Encryption & Decryption"
+    type_animation "5] Games in Termux"
+    type_animation "6] Information Gathering"
+    type_animation "7] Metasploit"
+    type_animation "8] Phishing"
+    type_animation "9] Programming in Termux"
+    type_animation "10] Cool Scripts"
+    type_animation "11] SQL Injection"
+    type_animation "12] Termux issues"
+    type_animation "13] Termux Add-ons"
+    type_animation "14] Termux API"
+    type_animation "15] Termux Customization"
+    type_animation "16] Termux for Fun"
+    type_animation "17] Themes"
+    type_animation "18] Top Tools of Termux"
+    type_animation "19] Everyday Use Tools"
+    type_animation "20] Webserver Creation"
+    type_animation "21] Custom Search"
+    type_animation "22] About This tool"
+    type_animation "23] Uninstall Termux Helper"
+    red_exit
 }
+
 # Function to perform a custom search
 custom_search() {
     read -p "Enter what you want to learn about: " keyword
@@ -53,7 +69,13 @@ custom_search() {
 # Main loop
 while true; do
     display_menu
-    read -p ">>Enter your choice (0 to 23) --> " choice
+    green_text_animation ">>Enter your choice (0 to 23) --> "
+    read choice
+
+
+
+
+
 
     case $choice in
         0)
