@@ -3,6 +3,10 @@
 #Date 12-8-2023
 
 # Function to display the menu
+
+#update the tool
+#git reset --hard HEAD && git pull
+
 display_menu() {
     clear
     
@@ -188,6 +192,7 @@ echo -e "${reset}"
 if [[ "$user_input" == "uninstall" ]]; then
     echo "Uninstalling..."
     bash $PREFIX/termux-helper/uninstall.sh
+    break
 else
     echo "Thank you for choosing to keep Termux Helper. It's an investment in your productivity and growth."
 fi
