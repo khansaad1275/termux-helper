@@ -47,7 +47,7 @@ custom_search() {
 # Main loop
 while true; do
     display_menu
-    read -p ">>Enter your choice (0 to 22) --> " choice
+    read -p ">>Enter your choice (0 to 23) --> " choice
 
     case $choice in
         0)
