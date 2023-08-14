@@ -58,6 +58,7 @@ display_menu() {
     type_animation "21] Custom Search"
     type_animation "22] About This tool"
     type_animation "23] Uninstall Termux Helper"
+    type_animation "24] UPDATE Termux Helper"
     red_exit
 }
 
@@ -247,7 +248,16 @@ fi
 
             
             ;;
-        *)
+           24)
+        type_animation "WAIT WE ARE UPDATING TERMUX HELPER..."
+        cd /data/data/com.termux/files/usr/termux-helper/
+        git pull --force
+        cd
+        type_animation "UPDATE COMPLETE."
+
+        
+        ;;
+    *)
             echo "Invalid choice. Please select a valid option."
             ;;
     esac
