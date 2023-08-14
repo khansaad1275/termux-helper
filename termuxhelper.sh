@@ -254,6 +254,7 @@ fi
            24)
         type_animation "WAIT WE ARE UPDATING TERMUX HELPER..."
         cd /data/data/com.termux/files/usr/termux-helper/
+        git reset --hard
         git pull --force
         cd
         type_animation "UPDATE COMPLETE."
@@ -265,5 +266,11 @@ fi
             ;;
     esac
 
-    read -p "Press Enter to continue..."
+    read -p "Press Enter to continue or 0 to EXIT: " lastchoice
+
+if [ "$lastchoice" == "0" ]; then
+    echo "Thanks for using the termux-helper."
+    exit 0
+fi
+    
 done
