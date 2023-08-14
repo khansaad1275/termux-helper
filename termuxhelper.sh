@@ -130,6 +130,7 @@ while true; do
 
     case $choice in
         0)
+          echo
           green_text_animation "Termux Helper Exited successfully."
           echo
           print_random_nice_message
@@ -316,6 +317,7 @@ fi
     read -p "Press Enter to continue or 0 to EXIT: " lastchoice
 
 if [ "$lastchoice" == "0" ]; then
+    echo
     green_text_animation "Exiting Termux Helper"
     echo
     print_random_nice_message
