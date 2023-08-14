@@ -85,7 +85,51 @@ while true; do
 
     case $choice in
         0)
-            echo "Goodbye!"
+# Define an array of positive messages
+positive_messages=(
+    "Have a fantastic day!"
+    "You've got this! Keep going."
+    "Every day is a new opportunity."
+    "You're amazing just the way you are."
+    "Spread positivity wherever you go."
+    "Believe in yourself and your dreams."
+    "You are capable of achieving great things."
+    "Your positive attitude can change the world."
+    "Embrace challenges as opportunities for growth."
+    "Remember to smile and brighten someone's day."
+    "Your efforts will pay off in the long run."
+    "You're not alone – reach out if you need support."
+    "Your potential is limitless. Keep pushing forward."
+    "You have the power to make a difference."
+    "Challenges are stepping stones to success."
+    "Today is a gift; that's why it's called the present."
+    "Your perseverance will lead to success."
+    "Radiate positivity and inspire those around you."
+    "The best way to predict the future is to create it."
+    "You possess the qualities needed to achieve greatness."
+    "Success starts with a positive mindset and hard work."
+    "Your journey is uniquely yours – embrace it fully."
+    "You are a beacon of light in the lives of others."
+    "Small steps forward still lead to progress."
+    "Believe in the magic within you."
+    "Your dreams are valid and achievable."
+    "You have the strength to overcome any challenge."
+    "Your presence makes a positive impact."
+    "Keep your face to the sunshine and shadows will fall behind you."
+)
+
+# Define a function to print a random positive message in bold
+print_random_nice_message() {
+    # Generate a random index within the range of the array
+    random_index=$((RANDOM % ${#positive_messages[@]}))
+
+    # Print the randomly selected message in bold
+    echo -e "\033[1m${positive_messages[random_index]}\033[0m"
+}
+
+# Call the function to print a random positive message in bold
+print_random_nice_message
+# --------------------------------------------------------------
             exit
             ;;
         1)
