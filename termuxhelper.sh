@@ -120,7 +120,7 @@ custom_search() {
 # Main loop
 while true; do
     display_menu
-    green_text_animation ">>Enter your choice (0 to 23) -->  "
+    green_text_animation ">>Enter your choice (0 to 24) -->  "
     read choice
 
 
