@@ -1,7 +1,7 @@
 # Termux Helper
 
 <div align="center">
-  <img src="https://github.com/khansaad1275/termux-helper/assets/32749921/a0d09747-82e8-447f-ac97-30ede18378f3" alt="Termux Helper Logo">
+  <img src="https://github.com/khansaad1275/termux-helper/assets/32749921/10d4a6bb-7c6f-4987-87a5-cb9648a7135e" alt="Termux Helper Logo">
 </div>
 
 
