@@ -86,82 +86,102 @@ while true; do
             ;;
         1)
             echo "You selected: Basic Commands"
+            echo "You are being redirected to Termux Basic Command posts... "
             xdg-open "https://www.learntermux.tech/search/label/Basic%20Commands?&max-results=7"
             ;;
         2)
             echo "You selected: Brute Force"
+            echo "You are being redirected to Brute Force posts... "
             xdg-open "https://www.learntermux.tech/search/label/Brute-Force?&max-results=7"
             ;;
         3)
             echo "You selected: Denial of Service Attack"
+            echo "You are being redirected to Denial of Service Attack posts... "
             xdg-open "https://www.learntermux.tech/search/label/Denial-of-Service%20Attack?&max-results=7"
             ;;
         4)
             echo "You selected: Encryption & Decryption"
+            echo "You are being redirected to Encryption & Decryption posts... "
             xdg-open "https://www.learntermux.tech/search/label/Encryption%20%26%20Decryption?&max-results=7"
             ;;
         5)
             echo "You selected: Games in Termux"
+            echo "You are being redirected to Games in Termux posts... "
             xdg-open "https://www.learntermux.tech/search/label/Games-in-termux?&max-results=7"
             ;;
         6)
             echo "You selected: Information Gathering"
+            echo "You are being redirected to Information Gathering posts... "
             xdg-open "https://www.learntermux.tech/search/label/Information%20Gathering?&max-results=7"
             ;;
         7)
             echo "You selected: Metasploit"
+            echo "You are being redirected to selected: Metasploit posts... "
             xdg-open "https://www.learntermux.tech/search/label/Metasploit?&max-results=7"
             ;;
         8)
             echo "You selected: Phishing"
+            echo "You are being redirected to Phishing related posts... "
             xdg-open "https://www.learntermux.tech/search/label/Phishing?&max-results=7"
             ;;
         9)
             echo "You selected: Programming in Termux"
+            echo "You are being redirected to Programming related posts... "
             xdg-open "https://www.learntermux.tech/search/label/Programming-in-Termux?&max-results=7"
             ;;
         10)
             echo "You selected: Cool Scripts"
+            echo "You are being redirected to Scripts posts... "
             xdg-open "https://www.learntermux.tech/search/label/Scripts?&max-results=7"
             ;;
         11)
             echo "You selected: SQL Injection"
+            echo "You are being redirected to SQL Injection posts... "
             xdg-open "https://www.learntermux.tech/search/label/SQL-injection?&max-results=7"
             ;;
         12)
             echo "You selected: Termux issues"
+            echo "You are being redirected to Termux issues related posts... "
             xdg-open "https://www.learntermux.tech/search/label/Termux%20issues?&max-results=7"
             ;;
         13)
             echo "You selected: Termux Add-ons"
+            echo "You are being redirected to Termux Add-ons related posts... "
             xdg-open "https://www.learntermux.tech/search/label/Termux-add-ons?&max-results=7"
             ;;
         14)
             echo "You selected: Termux API"
+            echo "You are being redirected to Termux-API related posts... "
             xdg-open "https://www.learntermux.tech/search/label/Termux-Api?&max-results=7"
             ;;
         15)
             echo "You selected: Termux Customization"
+            echo "You are being redirected to Termux Cusomization related posts... "
             xdg-open "https://www.learntermux.tech/search/label/termux-customization?&max-results=7"
             ;;
         16)
             echo "You selected: Termux for Fun"
+            echo "You are being redirected to Termux Fun related posts... "
             xdg-open "https://www.learntermux.tech/search/label/Termux-for-Fun?&max-results=7"
             ;;
         17)
             echo "You selected: Themes"
+            echo "You are being redirected to Theme posts... "
             xdg-open "https://www.learntermux.tech/search/label/themes?&max-results=7"
             ;;
         18)
             echo "You selected: Top Tools of Termux"
+            echo "You are being redirected to Top Best tools related posts... "
             xdg-open "https://www.learntermux.tech/search/label/Top-Tools-Posts?&max-results=7"
             ;;
         19)
             echo "You selected: Everyday Use Tools"
+            echo "You are being redirected to Everyday Use tools posts... "
             xdg-open "https://www.learntermux.tech/search/label/Useful-Tools?&max-results=7"
             ;;
         20)
             echo "You selected: Webserver Creation"
+            echo "You are being redirected to Termux Webserver creation-related posts... "
             xdg-open "https://www.learntermux.tech/search/label/Webserver-Creation?&max-results=7"
             ;;
         21)
