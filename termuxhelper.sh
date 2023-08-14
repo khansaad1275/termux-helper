@@ -130,10 +130,10 @@ while true; do
 
     case $choice in
         0)
-        green_text_animation "Exiting Termux Helper"
-        print_random_nice_message
-
-            exit
+          green_text_animation "Termux Helper Exited successfully."
+          echo
+          print_random_nice_message
+        exit 0
             ;;
         1)
             echo "You selected: Basic Commands"
