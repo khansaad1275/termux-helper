@@ -1,6 +1,8 @@
 # Termux Helper
 
-![image](https://github.com/khansaad1275/termux-helper/assets/32749921/a0d09747-82e8-447f-ac97-30ede18378f3)
+<div align="center">
+  <img src="https://github.com/khansaad1275/termux-helper/assets/32749921/a0d09747-82e8-447f-ac97-30ede18378f3" alt="Termux Helper Logo">
+</div>
 
 
 Termux Helper is a comprehensive collection of categorized Termux tools and commands. If you've ever found yourself searching Google for Termux-related commands, this tool is here to simplify your experience. Say goodbye to the hassle of endless Googling and bookmarking, and welcome a user-friendly, organized approach to Termux command reference.
