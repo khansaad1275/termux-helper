@@ -80,7 +80,7 @@ display_menu() {
     type_animation "   ░▒█░░ █▀▀ █▄▄▀ █░▀░█ █░░█ ▄▀▄"
     type_animation "   ░▒█░░ ▀▀▀ ▀░▀▀ ▀░░░▀ ░▀▀▀ ▀░▀"
     echo -e "\033[1;32m************************************\033[0m"
-    echo -e "\033[31m    LearnTermux.tech\033[0m \033[32mHelper Menu\033[0m"
+     echo -e "\033[33;5mLearnTermux.tech\033[0m \033[32mHelper Menu\033[0m"
     echo -e "\033[1;32m************************************\033[0m"
     type_animation "Please select an option:"
     type_animation "1] Basic Commands"
