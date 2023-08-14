@@ -12,6 +12,10 @@ Termux Helper is a comprehensive collection of categorized Termux tools and comm
 
 - **Easy Installation**: Installing Termux Helper is a breeze. Just follow the simple installation command provided below, and you'll be up and running in no time.
 
+- **Custom Search**: Use the Custom Search feature to find best tools qickly.
+
+- **Easy Update**: Updating Termux Helper and getting new features is as easy as selecting an option. 
+
 ## Installation
 
 To install Termux Helper, follow these steps:
