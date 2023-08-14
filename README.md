@@ -1,12 +1,8 @@
 # Termux Helper
-
+Termux Helper is a comprehensive collection of categorized Termux tools and commands. If you've ever found yourself searching Google for Termux-related commands, this tool is here to simplify your experience. Say goodbye to the hassle of endless Googling and bookmarking, and welcome a user-friendly, organized approach to Termux command reference.
 <div align="center">
   <img src="https://github.com/khansaad1275/termux-helper/assets/32749921/10d4a6bb-7c6f-4987-87a5-cb9648a7135e" alt="Termux Helper Logo">
 </div>
-
-
-
-Termux Helper is a comprehensive collection of categorized Termux tools and commands. If you've ever found yourself searching Google for Termux-related commands, this tool is here to simplify your experience. Say goodbye to the hassle of endless Googling and bookmarking, and welcome a user-friendly, organized approach to Termux command reference.
 
 ## Features
 
