@@ -1,6 +1,9 @@
 #!/bin/bash
-#hey it's me saad
-#Date 12-8-2023
+# This script is Termux-helper Menu 
+# Takes user input and redirects users to particular posts so that they can easily find posts.
+# Author: SaadMaqsood 
+# Site : learnTermux.tech
+# Date: August 14, 2023
 
 
 #!/bin/bash
