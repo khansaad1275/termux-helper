@@ -318,7 +318,7 @@ fi
 
 if [ "$lastchoice" == "0" ]; then
     echo
-    green_text_animation "Exiting Termux Helper"
+    green_text_animation "Termux Helper Exited successfully."
     echo
     print_random_nice_message
     exit 0
