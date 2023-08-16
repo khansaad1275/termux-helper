@@ -118,7 +118,8 @@ custom_search() {
 # Main loop
 while true; do
     display_menu
-    green_text_animation ">> Select an Option -->  "
+    green_text_animation ">> Select an Option --> "
+    echo -n " "
     read choice
 
 
