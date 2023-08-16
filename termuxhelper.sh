@@ -33,8 +33,6 @@ function green_text_animation() {
 positive_messages=(
     "Have a fantastic day!"
     "You've got this! Keep going."
-    "Every day is a new opportunity."
-    "You're amazing just the way you are."
     "Spread positivity wherever you go."
     "Believe in yourself and your dreams."
     "You are capable of achieving great things."
@@ -120,7 +118,7 @@ custom_search() {
 # Main loop
 while true; do
     display_menu
-    green_text_animation ">>Enter your choice (0 to 24) -->  "
+    green_text_animation ">> Select an Option -->  "
     read choice
 
 
