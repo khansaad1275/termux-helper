@@ -105,6 +105,7 @@ display_menu() {
     type_animation "22] About This tool"
     type_animation "23] Uninstall Termux Helper"
     type_animation "24] UPDATE Termux Helper"
+    type_animation "25] Termux Ethical Hacking Course
     red_exit
 }
 
