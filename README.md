@@ -39,6 +39,6 @@ We welcome contributions from the open-source community to make Termux Helper ev
 If you encounter any issues, have questions, or just want to say hi, you can reach us at our official support channel.
 
 ## License:
-This project is licensed under the [Your License Name] License - see the LICENSE file for details.
+This project is licensed under the [GNU 3] License - see the LICENSE file for details.
 
 Simplify your Termux experience with Termux Helper. Say goodbye to endless Googling and hello to organized command reference. Install it now and unlock a new level of Termux efficiency!
