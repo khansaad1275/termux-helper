@@ -309,12 +309,10 @@ fi
 
         
         ;;
-                 25)
+       25)
         type_animation "TBEHC | Termux Beginner Ethical Hacking Course."
         type_animation "Guys the Termux Ethical Hacking course is finally out, and it's the launch sale 🎊. This is a 15 day course that will teach you from basic to advance. ✨ This Launch sale will be active only for 7 days. 🎊 so click on the link and check out the course (even if you don't wanna buy it, just check it out and watch the free intro). Thank you ❤️"
-       
-
-        
+ 
         ;;
     *)
             echo "Invalid choice. Please select a valid option."
